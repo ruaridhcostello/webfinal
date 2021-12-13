@@ -1,0 +1,146 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+A {text-decoration: none;}
+
+/* Header Stuff Start*/
+
+.beautiful {
+    background: url(/images/beautiful_header.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    position: relative;
+
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+  }
+.header {
+    background-color: #111a1c;
+    width: 100%;
+    position: relative;
+    top: 0;
+    left: 0;
+    opacity: 0.5;
+}
+.hleft {
+    text-align: left;
+    font-size: 3vw;
+    color: rgb(255, 0, 0);
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+.hright {
+    text-align: right;
+    font-size: 3vw;
+    color: rgb(255, 0, 0);
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+.intro {
+    border: 10px solid transparent;
+    position: relative;
+    font-size: 8vw;
+    text-align: center;
+    color: rgb(0, 60, 255);
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+
+/* Header Stuff End*/
+
+/* About Me Stuff Start*/
+
+.about {
+    top: -2px;
+    width: 100%;
+    color: rgb(0, 110, 255);
+    border: none;
+    border-color: transparent;
+    position: relative;
+    font-size: 2.5vw;
+    text-align: left;
+    color: rgb(0, 0, 0);
+}
+.me {
+    background-color: #764db1;
+    width: 50%;
+    color: rgb(0, 0, 0);
+    border: none;
+    border-color: transparent;
+    position: relative;
+    font-size: 1.7vw;
+    text-align: left;
+    color: rgb(0, 0, 0);
+    float: left;
+}
+.basic {
+    background-color: #764db1;
+    width: 50%;
+    color: rgb(0, 0, 0);
+    border: none;
+    border-color: transparent;
+    position: relative;
+    font-size: 1.7vw;
+    text-align: left;
+    color: rgb(0, 0, 0);
+    float: left;
+}
+
+/* About Me Stuff End*/
+
+/* Education Stuff Begins*/
+
+.education1 {
+    top: 50px;
+    width: 100%;
+    color: rgb(0, 110, 255);
+    border: none;
+    border-color: transparent;
+    position: relative;
+    font-size: 2.5vw;
+    color: rgb(0, 0, 0);
+}
+.type1 {
+    background-color: #3a1174;
+    width: 20%;
+    color: rgb(0, 0, 0);
+    border: none;
+    border-color: transparent;
+    position: relative;
+    font-size: 1.7vw;
+    text-align: left;
+    color: rgb(0, 0, 0);
+    left: 5%;
+    float: left;
+}
+.school1 {
+    background-color: #b795e8;
+    width: 70%;
+    color: rgb(0, 0, 0);
+    border: none;
+    border-color: transparent;
+    position: relative;
+    font-size: 1.7vw;
+    text-align: left;
+    color: rgb(0, 0, 0);
+    left: 5%;
+    float: left;
+}
+
+/* Education Stuff Ends*/
+
+/* Reflection Stuff Begins*/
+
+.reflect {
+    top: 500px;
+    background-color: cornflowerblue;
+    font-size: 1.5vw;
+    border-style: solid;
+    border-width: thick;
+    text-align: Center;
+    border-color: black;
+    position: relative;
+}
+
+/* Reflection Stuff Ends*/

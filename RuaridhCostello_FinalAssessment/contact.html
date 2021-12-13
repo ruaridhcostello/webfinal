@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!--
+        Full Name: Ruaridh Costello
+        Student Number: 133714212
+    -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/contact_style.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Fuzzy+Bubbles&display=swap');
+    </style>
+    <title>Ruaridh_Costello_Final_Assignment_Contact_Page</title>
+</head>
+
+<body style="font-family: 'Fuzzy Bubbles', cursive; background-color: #7210fc;">
+
+    <!-- Top of Header -->
+    <div class="beautiful">
+        <div class="header">
+            <div class="hleft">&nbsp;Ruaridh Costello</div>
+            <div class="hright">
+                <a href="main.html" class="hright">Home</a>
+                |
+                <a href="resume.html" class="hright">Resume&nbsp;</a>
+            </div>
+        </div>
+        <div class="intro">
+            <p><b>Want to talk?<br>Contact Me<br>Below</b></p>
+        </div>
+    </div>
+    <!-- Bottom of Header -->
+
+    <!-- Top of Contact Form -->
+
+    <fieldset>
+        <p>
+        <h1>Contact Form</h1>
+        <h4>(Required Fields have * beside them)</h4>
+        </p>
+        <form method="POST" action="https://formspree.io/f/mwkykqdk">
+
+            <div>
+                <label for="name">
+                    <b>First Name: *</b>
+                    <input type="text" name="name" size="25" placeholder="Enter First Name" required="">
+                </label>
+                <label for="name">
+                    <b>Last Name: </b>
+                    <input type="text" name="name" size="25" placeholder="Enter Last Name">
+                </label>
+                <br><br>
+                <label for="email">
+                    <b>Email address: *</b>
+                    <input type="email" name="email" size="25" placeholder="Enter e-mail" required="">
+                </label>
+                <label for="phone">
+                    <b>Phone Number: *</b>
+                    <input type="tele" name="phone" size="25" placeholder="Enter Phone Number" required="">
+                </label>
+            </div>
+            <br>
+            <div>
+                <label for="address">
+                    <b>Address: *</b>
+                    <input type="text" id="address" name="address" size="30" placeholder="Enter Address"
+                        required="">
+                </label>
+            </div>
+            <br>
+            <div>
+                <label for="city"> <b>City: *</b></label>
+                <input type="text" list="city" name="city" size="25" placeholder="Enter City" required="">
+            </div>
+            <br>
+            <div>
+                <label for="postalcode">
+                    <b>Postal Code: *</b>
+                    <input type="text" id="postalcode" title="Example: A1A 1A1 or A1A1A1"
+                        pattern="[A-Za-z][0-9][A-Za-z](? || ' ')[0-9][A-Za-z][0-9]" name="postalcode" size="25"
+                        placeholder="Enter Postal Code" required="">
+                    <br><br>
+                </label>
+            </div>
+
+            <script src="hiring.js"></script>
+
+            <div>
+                <label for="purpose">
+                    <b>Purpose: </b></label>
+                <span>
+                    <input type="radio" id="hiring" name="purpose" value="hiring" onclick="dynamic()" checked="">Hiring
+                    <input type="radio" id="hide" name="purpose" value="question" onclick="dynamic()">Question
+                    <input type="radio" id="hide" name="purpose" value="comment" onclick="dynamic()">Comment
+                </span>
+            </div>
+
+            <div id="rate">
+                <label for="rate"> Hourly Rate $ </label>
+                <input type="number" size="15" placeholder="Enter Hourly Rate">
+            </div>
+            <br>
+            <label for="message"> <b>Message: </b></label>
+            <div>
+                <textarea form="contactform" rows="5" cols="80" name="message" placeholder="Enter Reason For Contact"></textarea>
+            </div>
+
+            <br>
+            <div>
+                <input type="submit" value="Submit">
+                <input type="reset" value="Clear">
+            </div>
+        </form>
+    </fieldset>
+
+    <!-- Bottom of Contact Form -->
+
+</body>
+
+</html>
